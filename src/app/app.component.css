@@ -1,5 +1,29 @@
-.login-signup{
-    position:absolute;
-    right: 0px;
-    
+.container1{
+    display:inline-block;
+    background-color: rgba(185, 29, 29, 0.363);
+    width: 70vw;
+    border-radius: 10%;
+    position: relative;
+    left: 15%;
+    /* align-items: center; */
+}
+.source{
+    /* background-color:Yellow; */
+    width: 50%;
+    display: inline-block;
+
+}
+.destination{
+    /* background-color:Yellow; */
+    width: 20%;
+    display: inline-block;
+
+}
+.date{
+    position: relative;
+    left :25%
+}
+.submit{
+    position: relative;
+    left: 25%;
 }

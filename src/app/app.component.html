@@ -1,36 +1,92 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Welcome</title>
-</head>
-<body>
+  </head>
+  <body>
     <div class="b-example-divider"></div>
 
-  <header class="p-3 bg-dark text-white">
-    <div class="container">
-      <div class="d-flex flex-wrap align-items-center justify-content-center justify-content-lg-start">
-        <a href="/" class="d-flex align-items-center mb-2 mb-lg-0 text-white text-decoration-none">
-          <svg class="bi me-2" width="40" height="32" role="img" aria-label="Bootstrap"><use xlink:href="#bootstrap"/></svg>
-        </a>
+    <header class="p-3 bg-dark text-white">
+      <div class="container">
+        <div
+          class="d-flex flex-wrap align-items-center justify-content-center justify-content-lg-start"
+        >
+          <a
+            href="/"
+            class="d-flex align-items-center mb-2 mb-lg-0 text-white text-decoration-none"
+          >
+            <svg
+              class="bi me-2"
+              width="40"
+              height="32"
+              role="img"
+              aria-label="Bootstrap"
+            >
+              <use xlink:href="#bootstrap" />
+            </svg>
+          </a>
 
-        <ul class="nav col-12 col-lg-auto me-lg-auto mb-2 justify-content-center mb-md-0">
-          <li><a href="index.html" class="nav-link px-2 text-secondary">Home</a></li>
-          <li><a href="index.html" class="nav-link px-2 text-white">About</a></li>
-          <li><a href="#" class="nav-link px-2 text-white">Contact Us</a></li>
-        </ul>
+          <ul
+            class="nav col-12 col-lg-auto me-lg-auto mb-2 justify-content-center mb-md-0"
+          >
+            <li>
+              <a href="index.html" class="nav-link px-2 text-secondary">Home</a>
+            </li>
+            <li>
+              <a href="index.html" class="nav-link px-2 text-white">About</a>
+            </li>
+            <li><a href="#" class="nav-link px-2 text-white">Contact Us</a></li>
+          </ul>
 
-        <div class="text-end">
-          <button type="button" class="btn btn-outline-light me-2">Login</button>
-          <button type="button" class="btn btn-warning"><a href="C:\Users\002UVT744\Desktop\Frontend\Bus_Booking\src\app\User\sign-up\sign-up.component.html">Sign-up</a> </button>
+          <div class="text-end">
+            <button type="button" class="btn btn-outline-light me-2">
+              Login
+            </button>
+            <button type="button" class="btn btn-warning">
+              
+            Sign-up
+              
+            </button>
+          </div>
         </div>
       </div>
+    </header>
+    <!-- <app-login></app-login> -->
+    <!-- <app-sign-up></app-sign-up> -->
+    <div class="container1">
+      <div class="source">
+        <label for="Source">Source</label>
+
+        <br>
+
+        <select name="source" id="source">
+          <option value="Source 1">Source 1</option>
+          <option value="Source 2">Source 2</option>
+          <option value="Source 3">Source 3</option>
+          <option value="Source 4">Source 4</option>
+        </select>
+      </div>
+
+      <div class="destination">
+        <label for="Destination">Destination</label>
+        <br>
+
+        <select name="Destination" id="Destination">
+          <option value="Destination 1">Destination 1</option>
+          <option value="Destination 2">Destination 2</option>
+          <option value="Destination 3">Destination 3</option>
+          <option value="Destination 4">Destination 4</option>
+        </select>
+        <br>
+      </div>
+      <br>
+      <input type="date" name="date" id="date" class="date" />
+      <br>
+      <br>
+      <div class="submit"><input type="submit" value="submit"></div>
     </div>
-  </header>
-  <!-- <app-login></app-login> -->
-  <app-sign-up></app-sign-up>
-    
-</body>
+  </body>
 </html>
