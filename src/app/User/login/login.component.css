@@ -1,0 +1,11 @@
+.loginForm{width: 40vw;
+    height: 40vh;
+    position:fixed;
+    left:20vw;
+    background-color: rgba(109, 221, 221, 0.315);
+}
+body{
+    background-image: url("C:\Users\002UVT744\Desktop\Frontend\Bus_Booking\src\Bus.png");
+    background-size:cover;
+
+}
