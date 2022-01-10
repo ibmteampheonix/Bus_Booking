@@ -40,16 +40,12 @@
             </li>
             <li><a href="#" class="nav-link px-2 text-white">Contact Us</a></li>
           </ul>
-
+          <h2 class="welcome">Welcome To Bus Booking System</h2>
           <div class="text-end">
             <button type="button" class="btn btn-outline-light me-2">
               Login
             </button>
-            <button type="button" class="btn btn-warning">
-              
-            Sign-up
-              
-            </button>
+            <button type="button" class="btn btn-warning">Sign-up</button>
           </div>
         </div>
       </div>
@@ -58,10 +54,7 @@
     <!-- <app-sign-up></app-sign-up> -->
     <div class="container1">
       <div class="source">
-        <label for="Source">Source</label>
-
-        <br>
-
+        <label for="Source" style="margin-right:80px;"><h3>Source</h3></label><br>
         <select name="source" id="source">
           <option value="Source 1">Source 1</option>
           <option value="Source 2">Source 2</option>
@@ -69,24 +62,22 @@
           <option value="Source 4">Source 4</option>
         </select>
       </div>
-
       <div class="destination">
-        <label for="Destination">Destination</label>
-        <br>
-
+        <label for="Destination"style="margin-right:80px;"><h3>Destination</h3></label>
         <select name="Destination" id="Destination">
           <option value="Destination 1">Destination 1</option>
           <option value="Destination 2">Destination 2</option>
           <option value="Destination 3">Destination 3</option>
           <option value="Destination 4">Destination 4</option>
         </select>
-        <br>
+        
       </div>
-      <br>
+      <br><br>
+      <label for="date" style="margin-left: 170px;"><h3>Departing</h3></label>
       <input type="date" name="date" id="date" class="date" />
-      <br>
-      <br>
-      <div class="submit"><input type="submit" value="submit"></div>
+      <br />
+      <br />
+      <div class="submit"><button type="button" class="btn btn-warning">Check Availability</button></div>
     </div>
   </body>
 </html>
