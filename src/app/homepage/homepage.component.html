@@ -33,25 +33,25 @@
             class="nav col-12 col-lg-auto me-lg-auto mb-2 justify-content-center mb-md-0"
           >
             <li>
-              <a href="index.html" class="nav-link px-2 text-secondary">Home</a>
+              <a href="#" class="nav-link px-2 text-secondary">Home</a>
             </li>
             <li>
-              <a href="index.html" class="nav-link px-2 text-white">About</a>
+              <a href="#" class="nav-link px-2 text-white">About</a>
             </li>
             <li><a href="#" class="nav-link px-2 text-white">Contact Us</a></li>
           </ul>
           <h2 class="welcome">Welcome To Phoenix Bus Booking System</h2>
           <div class="text-end">
-            <button type="button" class="btn btn-outline-light me-2" [routerLink]='["/login"]' routerLinkActive="active">Login 
+            <button type="button" class="btn btn-outline-light me-2" [routerLink]='["/login"]' routerLinkActive="active" onclick="document.getElementById('container1').style.visibility='hidden' ">Login 
             </button>
-            <button type="button" class="btn btn-warning" [routerLink]='["/signup"]' routerLinkActive="active">Sign-Up </button>
+            <button type="button" class="btn btn-warning" [routerLink]='["/signup"]' routerLinkActive="active" onclick="document.getElementById('container1').style.visibility='hidden' ">Sign-Up </button>
           </div>
         </div>
       </div>
     </header>
     <!-- <app-login></app-login> -->
     <!-- <app-sign-up></app-sign-up> -->
-    <div class="container1">
+    <div id="container1" class="container1">
       <div class="source">
         <label for="Source" style="margin-right:80px;"><h3>Source</h3></label><br>
         <select name="source" id="source">

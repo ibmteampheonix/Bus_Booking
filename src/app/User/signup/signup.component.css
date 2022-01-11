@@ -71,6 +71,8 @@ body{
 }
 .SignUpForm{
     margin: 0px 150px 0px 150px;
-    background-color: rgb(2, 247, 247);
-    z-index: 10;
+    background-color: rgb(190, 164, 149);
+    position:relative;
+    top: -100px;
+    border-radius: 15px;
 }
