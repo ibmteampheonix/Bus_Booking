@@ -8,6 +8,7 @@ import { SignUpComponent } from './User/signup/signup.component';
 import { ShowBusesComponent } from './Bus/show-buses/show-buses.component';
 import { FormsModule } from '@angular/forms';
 import { HomepageComponent } from './homepage/homepage.component';
+import { PassengerdetailsComponent } from './User/passengerdetails/passengerdetails.component';
 
 @NgModule({
   declarations: [
@@ -15,7 +16,8 @@ import { HomepageComponent } from './homepage/homepage.component';
     LoginComponent,
     SignUpComponent,
     ShowBusesComponent,
-    HomepageComponent
+    HomepageComponent,
+    PassengerdetailsComponent
   ],
   imports: [
     BrowserModule,

@@ -11,5 +11,4 @@ export class ShowBusesComponent implements OnInit {
 
   ngOnInit(): void {
   }
-
 }

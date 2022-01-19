@@ -1,0 +1,82 @@
+
+        body{
+            /* background-color: rgb(219, 190, 154); */
+            margin:0px;
+        }
+        .heading{
+        
+            /* height: 20vh; */
+            background-color: rgb(145, 9, 9);
+            padding: 10px;
+            width:48.4vw;
+            /* position:fixed; */
+            margin: auto;
+            border: 3px solid rgba(72, 75, 72, 0.63);
+        }
+        .heading h1{
+            color:white;
+            text-align: center;
+        }
+        .formforpassenger {
+            margin:auto;
+            margin-top:-20vh 0 0 0 ;
+            width:50vw;
+
+            border: 3px solid rgba(72, 75, 72, 0.63);
+            /* padding: 10px;  */
+            /* text-align: center; */
+            background-color: rgb(179, 160, 139);
+          }
+          .toleft{
+              /* color:rgb(155, 146, 146); */
+              /* background-color: rgba(68, 66, 66, 0.39); */
+              margin-right: 20%;
+              
+              
+          }
+          .proceed{
+              height: 40px;
+              background-color: rgb(9, 126, 9);
+              /* border-radius: 10px; */
+              color: aliceblue;
+              margin-left: 20px;
+              width: 100px;
+          }
+          .cancel{
+            height: 40px;
+            background-color: rgb(201, 13, 13);
+            /* border-radius: 10px; */
+            color: aliceblue;
+            margin-left: 90px;
+            width: 100px;
+        
+          }
+          .styling
+          {
+              /* background-color: rgba(230, 123, 224, 0.856); */
+              /* border-radius: 15px; */
+              font-family:  'Times New Roman', serif;
+              margin: 0 0 0 10px;
+          }
+  .inputwidth{
+      width:40vw;
+      height: 23px;
+  }
+  .age{
+      display: inline;
+      /* background-color: green; */
+      float: right;
+      margin: -35px 10vw;
+
+  }
+  .gender{
+      display: inline;
+      /* background-color: red; */
+  }
+.tickdet{
+    margin: 0 0 0 10px;
+}
+  
+body{
+    margin-top: 90px;
+}

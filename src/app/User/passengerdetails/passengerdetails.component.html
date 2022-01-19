@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Passenger Details</title>
+    <!-- <link rel="stylesheet" href="style.css"> -->
+    
+</head>
+
+<body>
+    <div class="heading">
+        <h1>Enter Passenger Details</h1>
+    </div>
+    <div class="formforpassenger">
+        <form action="/">
+            <div class="tickdet" >
+               <h3 align="center"> Your Tickets Details will be sent to below Email & Phone </h3>
+            
+            <label for="phone"  >Phone</label><br />
+            <input type="tel" class="inputwidth"  name="phone" id="phonenumber" placeholder="Enter your phone number"
+                style="border-radius: 7px ; width: 40vw;" />
+            <br />
+            <br />
+            <label for="email">Email</label> <br />
+            <input type="email" name="email" id="email" class="inputwidth" placeholder="Email (Optional)" style="border-radius: 7px; " />
+        </div><hr><h3 align="center">Passenger Information</h3>
+            <div class="passengerdetails">
+                <div class="passenger1 styling">
+                    Passenger 1 |
+                    <p id="passenger1"></p>
+                    <label for="name" class="toleft" >Name</label> <br />
+                    <input class="inputwidth" type="text" placeholder="Passenger 1" name="name" id="p1name"
+                        style="border-radius: 7px" /><br />
+                    <br />
+                    <div class="gender">
+                    <label for="Gender" class="toleft">Gender</label> <br />
+                    <input type="radio" name="Gender" value="Male" id="p1male" />
+                    <label for="p1male">Male</label>
+                    <input type="radio" name="Gender" value="Female" id="p1female" />
+                    <label for="p1female">Female</label> <br>
+                </div>
+                <div class="age">
+                    <label for="age" class="toleft">Age</label> <br />
+                    <input type="number" name="age" id="p1age" style="border-radius: 7px" placeholder="Age"/>
+                </div>
+                <hr>
+                </div>
+                <br>
+                <div class="passenger2 styling">
+                    Passenger 2 |
+                    <p id="passenger2"></p>
+                    <label for="name" class="toleft">Name</label> <br />
+                    <input class="inputwidth" type="text" placeholder="Passenger 2" name="name" id="p2name"
+                        style="border-radius: 7px" /><br />
+                    <br />
+                    <div class="gender">
+                    <label for="Gender" class="toleft">Gender</label> <br />
+                    <input type="radio" name="Gender" value="Male" id="p2male" />
+                    <label for="p2male">Male</label>
+                    <input type="radio" name="Gender" value="Female" id="p2female" />
+                    <label for="p2female">Female</label> <br />
+                </div>
+                <div class="age">
+                    <label for="age" class="toleft">Age</label> <br />
+                    <input type="number" name="age" id="p2age" style="border-radius: 7px" placeholder="Age"/>
+                </div><hr>
+                </div>
+                <br />
+                <div class="passenger3 styling">
+                    Passenger 3 |
+                    <p id="passenger3"></p>
+                    <label for="name" class="toleft">Name</label> <br />
+                    <input class="inputwidth" type="text" placeholder="Passenger 3" name="name" id="p3name"
+                        style="border-radius: 7px" /><br />
+                     <div class="gender"><br>
+                    <label for="Gender" class="toleft">Gender</label> <br />
+                    <input type="radio" name="Gender" value="Male" id="p3male" />
+                    <label for="p3male">Male</label>
+                    <input type="radio" name="Gender" value="Female" id="p3female" />
+                    <label for="p3female">Female</label> <br /></div>
+                    <div class="age">
+                    <label for="age" class="toleft">Age</label> <br />
+                    <input type="number" name="age" id="p3age" style="border-radius: 7px" placeholder="Age" />
+                </div><hr>
+                </div>
+                <br />
+                
+                <div class="passenger4 styling">
+                    Passenger 4 |
+                    <p id="passenger4"></p>
+                    <label for="name" class="toleft">Name</label> <br />
+                    <input class="inputwidth" type="text" placeholder="Passenger 4" name="name" id="p4name"
+                        style="border-radius: 0px" /><br />
+                        <div class="gender"><br>
+                    <label for="Gender" class="toleft">Gender</label> <br />
+                    <input type="radio" name="Gender" value="Male" id="p4male" />
+                    <label for="p4male">Male</label>
+                    <input type="radio" name="Gender" value="Female" id="p4female" />
+                    <label for="p4female">Female</label> <br /></div>
+                    <div class="age">
+                    <label for="age" class="toleft">Age</label> <br />
+                    <input type="number" name="age" id="p4age" style="border-radius: 7px" placeholder="Age"/>
+                </div><hr>
+                </div>
+                <br />
+                
+                <div id="p5" class="passenger5 styling">
+                    Passenger 5 |
+                    <p id="passenger5"></p>
+                    <label for="name" class="toleft">Name</label> <br />
+                    <input class="inputwidth" type="text" placeholder="Passenger 5" name="name" id="p5name"
+                        style="border-radius: 7px" /><br />
+                    <div class="gender">   <br>                <label for="Gender" class="toleft">Gender</label> <br />
+                    <input type="radio" name="Gender" value="Male" id="p5male" />
+                    <label for="p5male">Male</label>
+                    <input type="radio" name="Gender" value="Female" id="p5female" />
+                    <label for="p5female">Female</label> <br /></div> 
+                    <div class="age">
+                    <label for="age" class="toleft">Age</label> <br />
+                    <input type="number" name="age" id="p5age" style="border-radius: 7px" placeholder="Age" />
+                </div><hr></div>
+                <div class="proceedcancel">
+                    <p class="tobepaid" style="display: inline;">Total amount is : <span id="totalamountfinal"></span></p>
+                    <button name="cancel" class="cancel" >Cancel </button> 
+                    <button type="submit" class="proceed">Proceed</button>
+                </div>
+            </div>
+        </form>
+    </div>
+</body>
+<!-- <script src="script.js"></script> -->
+</html>
