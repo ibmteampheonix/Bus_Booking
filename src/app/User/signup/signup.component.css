@@ -19,6 +19,10 @@ hr {
   border: 1px solid #f1f1f1;
   margin-bottom: 25px;
 }
+/* body{ 
+  background-image: url("C:\Users\002UVT744\Desktop\Frontend\Bus_Booking\src\buss.jpg");
+  background-size:cover; */
+/* } */
 
 /* Set a style for all buttons */
 button {
@@ -66,9 +70,7 @@ button:hover {
     width: 100%;
   }
 }
-body{
-    background-color: rgba(72, 161, 196, 0.63);
-}
+
 .SignUpForm{
     margin: 0px 150px 0px 150px;
     background-color: rgb(190, 164, 149);

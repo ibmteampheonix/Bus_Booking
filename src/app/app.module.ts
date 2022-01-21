@@ -9,6 +9,9 @@ import { ShowBusesComponent } from './Bus/show-buses/show-buses.component';
 import { FormsModule } from '@angular/forms';
 import { HomepageComponent } from './homepage/homepage.component';
 import { PassengerdetailsComponent } from './User/passengerdetails/passengerdetails.component';
+import { PaymentComponent } from './User/payment/payment.component';
+import { SeatesComponent } from './Bus/seates/seates.component';
+import { HttpClientModule } from '@angular/common/http';
 
 @NgModule({
   declarations: [
@@ -17,12 +20,15 @@ import { PassengerdetailsComponent } from './User/passengerdetails/passengerdeta
     SignUpComponent,
     ShowBusesComponent,
     HomepageComponent,
-    PassengerdetailsComponent
+    PassengerdetailsComponent,
+    PaymentComponent,
+    SeatesComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     FormsModule,
+    HttpClientModule,
     
   ],
   providers: [],

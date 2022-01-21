@@ -8,10 +8,12 @@
             /* height: 20vh; */
             background-color: rgb(145, 9, 9);
             padding: 10px;
-            width:48.4vw;
-            /* position:fixed; */
+            width:50vw;
+            position:relative;
+            top: -220px;
             margin: auto;
-            border: 3px solid rgba(72, 75, 72, 0.63);
+            border-radius: 10px 10px 0 0;
+            /* border: 3px solid rgba(72, 75, 72, 0.63); */
         }
         .heading h1{
             color:white;
@@ -21,11 +23,13 @@
             margin:auto;
             margin-top:-20vh 0 0 0 ;
             width:50vw;
-
-            border: 3px solid rgba(72, 75, 72, 0.63);
+            position: relative;
+            top: -220px;
+            border-radius: 0 0 10px 10px;
+            /* border: 3px solid rgba(72, 75, 72, 0.63); */
             /* padding: 10px;  */
             /* text-align: center; */
-            background-color: rgb(179, 160, 139);
+            background-color: rgb(190, 164, 149);
           }
           .toleft{
               /* color:rgb(155, 146, 146); */
@@ -60,13 +64,15 @@
           }
   .inputwidth{
       width:40vw;
-      height: 23px;
+      height: 30px;
   }
   .age{
       display: inline;
       /* background-color: green; */
       float: right;
       margin: -35px 10vw;
+      position: relative;
+      top: -15px;
 
   }
   .gender{

@@ -1,0 +1,59 @@
+
+.paymentpage{
+    margin: auto;
+    /* background-color: yellow; */
+    height:97vh;
+    background-color: rgba(190, 164, 149, 0.068);
+    position: relative;
+    top: -130px;
+}
+.paymentdetails{
+    display: block;
+    /* border: 3px solid black; */
+    border-radius:10px;
+    height:37vh;
+    width:45vw;
+    margin:0 25vw;
+    /* position: relative; */
+    /* top: -30px; */
+    padding:10px 10px;
+    background-color: rgb(190, 164, 149);
+}
+
+.details{
+    display: inline-block;
+    margin:5vh 25vw;
+    background-color: #fff;
+    padding: 20px;
+    width:43.5vw;
+    border-radius:10px;
+    text-align:center;
+    background-color: rgb(190, 164, 149);
+}
+.styling{
+    /*border-radius: 7px ;*/
+    width: 20vw;
+    height:4vh;
+}
+button{
+    background-color: red;
+    color:white;
+    width:60px;
+    height:35px;
+    float:right;
+    margin-right: 50px;
+}
+input{
+    padding: 4px;
+    margin-left: 12px;
+}
+#popup{
+    background-color: rgb(15, 83, 15);
+    color:white;
+    width:60px;
+    height:35px;
+}
+a{
+    text-decoration: none;
+    color: white;
+}

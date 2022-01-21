@@ -45,7 +45,10 @@
             <button type="button" class="btn btn-outline-light me-2" [routerLink]='["/login"]' routerLinkActive="active" onclick="document.getElementById('container1').style.visibility='hidden' ">Login 
             </button>
             <button type="button" class="btn btn-warning" [routerLink]='["/signup"]' routerLinkActive="active" onclick="document.getElementById('container1').style.visibility='hidden' ">Sign-Up </button>
-            <!-- <button type="button" class="btn btn-warning" [routerLink]='["/passengerdetails"]' routerLinkActive="active" onclick="document.getElementById('container1').style.visibility='hidden' ">PassengerDetails </button> -->
+            <button type="button" class="btn btn-warning" [routerLink]='["/passengerdetails"]' routerLinkActive="active" onclick="document.getElementById('container1').style.visibility='hidden' ">PassengerDetails </button>
+            <button type="button" class="btn btn-outline-light me-2" [routerLink]='["/payment"]' routerLinkActive="active" onclick="document.getElementById('container1').style.visibility='hidden' ">Payment</button>
+            <button type="button" class="btn btn-outline-light" [routerLink]='["/seats"]' routerLinkActive="active" onclick="document.getElementById('container1').style.visibility='hidden' ">Show Seats</button>
+           
           </div>
         </div>
       </div>
@@ -77,7 +80,7 @@
       <input type="date" name="date" id="date" class="date" />
       <br />
       <br />
-      <div class="submit"><button type="button" class="btn btn-warning">Check Availability</button></div>
+      <div class="submit"> <button type="button" class="btn btn-warning" [routerLink]='["/show-buses"]' routerLinkActive="active" onclick="document.getElementById('container1').style.visibility='hidden' ">Check Availability</button></div>
   
     </div>
     <!-- <app-show-buses></app-show-buses> -->

@@ -1,6 +1,7 @@
 {
   "name": "bus-booking",
   "version": "0.0.0",
+  "proxy": "http://localhost:8890",
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
@@ -19,7 +20,9 @@
     "@angular/platform-browser-dynamic": "~13.1.0",
     "@angular/router": "~13.1.0",
     "bootstrap": "^5.1.3",
-    "jquery": "^3.6.0",
+    "cors": "^2.8.5",
+    "jquery": "npm:jQuery@^1.7.4",
+    "jQuery": "^1.7.4",
     "rxjs": "~7.4.0",
     "tslib": "^2.3.0",
     "zone.js": "~0.11.4"

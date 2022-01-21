@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { HttpClient, HttpClientModule } from '@angular/common/http';
 
 @Component({
   selector: 'app-show-buses',
@@ -7,8 +8,11 @@ import { Component, OnInit } from '@angular/core';
 })
 export class ShowBusesComponent implements OnInit {
 
-  constructor() { }
+  constructor(private http:HttpClient) { }
+    ngOnInit()
+    {
+      let response = this.http.get("http://localhost:8890/route");
+      response.subscribe((data: any)=>console.log(data));
+    }
 
-  ngOnInit(): void {
-  }
 }
