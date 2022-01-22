@@ -3,20 +3,40 @@ var x = 0;
 var seats = 0;
 
 function myFunction(id) {
-    if(seats>4)
+    
+    if(document.getElementById(id).style.backgroundColor === "green"){
+        x = x-399
+        seats = seats-1;
+    
+        document.getElementById("totam").innerHTML = x;
+        document.getElementById("details").innerHTML = seats;
+        document.getElementById(id).style.backgroundColor = "white";
+    }
+    else if(seats>4)
     {
         five();
         return '';
     }
-    
-    x = x+399
-    seats = seats+1;
+    else{
+        x = x+399
+        seats = seats+1;
+        document.getElementById("totam").innerHTML = x;
+        document.getElementById("details").innerHTML = seats;
+        document.getElementById(id).style.backgroundColor = "green";
 
-    document.getElementById("totam").innerHTML = x;
-    document.getElementById("details").innerHTML = seats;
-    document.getElementById(id).style.backgroundColor = "green";
+    }
+    let seat_serialized = JSON.stringify(seats);
+    localStorage.setItem("seat",seat_serialized);
+    console.log(localStorage);
 }
+
+
 function five()
 {
     alert('No more than 5 seats can be selected');
+}
+function printsb(){
+    console.log("Hello");
+    alert('Hello');
+    document.getElementsById('p5').style.display = "inline-block";
 }

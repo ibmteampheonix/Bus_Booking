@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
-
+declare const seatCheck:any;
+declare const printsb:any;
 @Component({
   selector: 'app-passengerdetails',
   templateUrl: './passengerdetails.component.html',
@@ -11,5 +12,11 @@ export class PassengerdetailsComponent implements OnInit {
 
   ngOnInit(): void {
   }
+  // onload(){
+  //   seatCheck();
+  onClick(){
+      printsb();
 
-}
+    }
+  }
+
