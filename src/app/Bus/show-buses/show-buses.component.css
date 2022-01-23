@@ -1,0 +1,15 @@
+body{
+    /* background-color: ; */
+    margin-top: -70px;
+}
+.showbuses{
+    background-color: #fff;
+    width: 70vw;
+    margin: auto;
+    /* display: inline; */
+    background-color: rgb(194, 173, 133);
+}
+button{
+    background-color: green;
+    color: white;
+}

@@ -125,8 +125,8 @@
                 <div class="proceedcancel">
                     <p class="tobepaid" style="display: inline;">Total amount is : <span id="totalamountfinal"></span></p>
                     <button name="cancel" class="cancel" >Cancel </button> 
-                    <button type="submit" class="proceed">Proceed</button>
-                    <div class="hii" onclick="printsb()">HGFDSA</div>
+                    <button type="submit" class="proceed" [routerLink]='["/payment"]' routerLinkActive="active" onclick="document.getElementById('container1').style.visibility='hidden' ">Proceed</button>
+                    <!-- <div class="hii" onclick="printsb()">Refresh</div> -->
                 </div>
             </div>
         </form>

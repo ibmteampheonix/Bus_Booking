@@ -13,10 +13,5 @@ export class PassengerdetailsComponent implements OnInit {
   ngOnInit(): void {
   }
   // onload(){
-  //   seatCheck();
-  onClick(){
-      printsb();
-
-    }
-  }
-
+  //   seatCheck()
+}

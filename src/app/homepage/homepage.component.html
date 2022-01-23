@@ -46,8 +46,8 @@
             <button type="button" class="btn btn-outline-light me-2" [routerLink]='["/login"]' routerLinkActive="active" onclick="document.getElementById('container1').style.visibility='hidden' ">Login 
             </button>
             <button type="button" class="btn btn-warning" [routerLink]='["/signup"]' routerLinkActive="active" onclick="document.getElementById('container1').style.visibility='hidden' ">Sign-Up </button>
-            <button type="button" class="btn btn-outline-light me-2" [routerLink]='["/payment"]' routerLinkActive="active" onclick="document.getElementById('container1').style.visibility='hidden' ">Payment</button>
-            <button type="button" class="btn btn-outline-light" [routerLink]='["/seats"]' routerLinkActive="active" onclick="document.getElementById('container1').style.visibility='hidden' ">Show Seats</button>
+            <!-- <button type="button" class="btn btn-outline-light me-2" [routerLink]='["/payment"]' routerLinkActive="active" onclick="document.getElementById('container1').style.visibility='hidden' ">Payment</button> -->
+            <!-- <button type="button" class="btn btn-outline-light" [routerLink]='["/seats"]' routerLinkActive="active" onclick="document.getElementById('container1').style.visibility='hidden' ">Show Seats</button> -->
            
           </div>
         </div>
@@ -59,19 +59,21 @@
       <div class="source">
         <label for="Source" style="margin-right:80px;"><h3>Source</h3></label><br>
         <select name="source" id="source">
-          <option value="Source 1">Source 1</option>
-          <option value="Source 2">Source 2</option>
-          <option value="Source 3">Source 3</option>
-          <option value="Source 4">Source 4</option>
+          <option value="Source 1">Enter Source</option>
+          <option value="Source 1">Goa</option>
+          <option value="Source 2">Pune</option>
+          <option value="Source 3">Mumbai</option>
+          <option value="Source 4">Bangalore</option>
         </select>
       </div>
       <div class="destination">
         <label for="Destination"style="margin-right:80px;"><h3>Destination</h3></label>
         <select name="Destination" id="Destination">
-          <option value="Destination 1">Destination 1</option>
-          <option value="Destination 2">Destination 2</option>
-          <option value="Destination 3">Destination 3</option>
-          <option value="Destination 4">Destination 4</option>
+          <option value="Destination 1">Enter Destination</option>
+          <option value="Destination 1">Chennai</option>
+          <option value="Destination 2">Delhi</option>
+          <option value="Destination 3">Hydrabad</option>
+          <option value="Destination 4">Jaipur</option>
         </select>
         
       </div>
@@ -84,7 +86,9 @@
   
     </div>
     <!-- <app-show-buses></app-show-buses> -->
+    
     <router-outlet></router-outlet>
   </body>
+  
   
 </html>

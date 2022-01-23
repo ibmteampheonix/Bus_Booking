@@ -7,7 +7,58 @@
   <title>Document</title>
 </head>
 <body>
-  <th>Hello</th>
+  <div class="showbuses">
+    <h3>Available Buses</h3>
+    <table class="table">
+      <thead>
+        <tr>
+          <th scope="col">#</th>
+          <th scope="col">Bus Name</th>
+          <th scope="col">Departure Time</th>
+          <th scope="col">Coach Type</th>
+          <th scope="col">Seats Available </th>
+          <th scope="col">Fare </th>
+          <th scope="col">Book </th>
+
+          
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <th scope="row">1</th>
+          <td>Gola Bus </td>
+          <td>11:00 AM</td>
+          <td>AC</td>
+          <td>20</td>
+          <td>399</td>
+          <td><button type="button" class="btn btn-outline-light" [routerLink]='["/seats"]' routerLinkActive="active">Book Now</button></td>
+          
+        </tr>
+        <tr>
+          <th scope="row">2</th>
+          <td>Starlink</td>
+          <td>01:00 PM</td>
+          <td>Non AC</td>
+          <td>20</td>
+          <td>299</td>
+          <td><button type="button" class="btn btn-outline-light" [routerLink]='["/seats"]' routerLinkActive="active">Book Now</button></td>
+          
+        </tr>
+        <tr>
+          <th scope="row">3</th>
+          <td>Goldline</td>
+          <td>4:00 PM</td>
+          <td>AC</td>
+          <td>20</td>
+          <td>399</td>
+          <td><button type="button" class="btn btn-outline-light" [routerLink]='["/seats"]' routerLinkActive="active">Book Now</button></td>
+       
+        </tr>
+      </tbody>
+    </table>
+    
+  </div>
+ 
   
 </body>
 </html>

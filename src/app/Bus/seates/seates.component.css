@@ -1,14 +1,14 @@
 .all{
-    background-color: rgb(190, 164, 149);
+    background-color: rgb(194, 173, 133);
     display: inline-block;
     height:70vh;
-    margin: -150px 150px;
+    margin: -150px 220px;
 }
 .fullbus{
     border: 3px solid ;
     height: 400px;
     width: 250px;  
-    margin: 0px 80px;
+    margin: 0px 120px;
     background-color: rgb(240, 234, 234);
     display: inline-block;
     z-index: 3;
@@ -53,16 +53,34 @@
     border-radius: 50%;
     left: 190px;
     background-size: contain;
+    animation: rotation 2s infinite linear;
   background-image: url("https://pngimg.com/uploads/steering_wheel/steering_wheel_PNG16685.png");
 }.total{
     /* border: 2px solid; */
     display: inline-block;
     width: auto;
     position: relative;
-    top: -8vh;
+    top: -15vh;
     /* background-color:rgb(230, 174, 174); */
     
 }
 .confirmation{
-    margin: 0px 95px;
+    margin: 0px 65px 0 65px;
 }
+.proceed{
+    background-color: green;
+    color: #fff;
+}
+.cancel{
+    background-color: red;
+    color: #fff;
+    margin: 0 16px;
+}
+@keyframes rotation {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(359deg);
+    }
+  }

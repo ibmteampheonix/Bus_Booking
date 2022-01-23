@@ -38,5 +38,4 @@ function five()
 function printsb(){
     console.log("Hello");
     alert('Hello');
-    document.getElementsById('p5').style.display = "inline-block";
 }
