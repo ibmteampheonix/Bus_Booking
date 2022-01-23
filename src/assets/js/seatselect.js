@@ -36,6 +36,9 @@ function five()
     alert('No more than 5 seats can be selected');
 }
 function printsb(){
-    console.log("Hello");
-    alert('Hello');
+    if (seats==0)
+    {
+        alert("Please select seats to proceed");
+        return '';
+    }
 }
