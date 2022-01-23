@@ -1,11 +1,17 @@
 
-.paymentpage{
+/* #paymentpage{
     margin: auto;
-    /* background-color: yellow; */
+    
     height:97vh;
     background-color: rgba(190, 164, 149, 0.068);
     position: relative;
-    top: -130px;
+    top: -80px;
+} */
+body{
+    background:none;
+}
+.pay{
+    margin-top: -150px;
 }
 .paymentdetails{
     display: block;
@@ -14,8 +20,8 @@
     height:37vh;
     width:45vw;
     margin:0 25vw;
-    /* position: relative; */
-    /* top: -30px; */
+    /* position: relative;
+    top: -30px; */
     padding:10px 10px;
     background-color: rgb(194, 173, 133);
 }

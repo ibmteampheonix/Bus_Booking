@@ -9,6 +9,9 @@
   border: none;
   background: #f1f1f1;
 }
+body{
+  background:none;
+}
 
 input[type=text]:focus, input[type=password]:focus {
   background-color: #ddd;
@@ -73,7 +76,7 @@ button:hover {
 
 .SignUpForm{
     margin: 0px 150px 0px 150px;
-    background-color: rgb(190, 164, 149);
+    background-color: rgb(194, 173, 133);
     position:relative;
     top: -100px;
     border-radius: 15px;

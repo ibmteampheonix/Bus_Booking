@@ -4,6 +4,9 @@
     height:70vh;
     margin: -150px 220px;
 }
+body{
+    background:none;
+}
 .fullbus{
     border: 3px solid ;
     height: 400px;

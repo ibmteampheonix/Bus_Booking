@@ -2,7 +2,10 @@
         body{
             /* background-color: rgb(219, 190, 154); */
             margin:0px;
-        }
+            
+                background:none;
+            }
+    
         .heading{
         
             /* height: 20vh; */
@@ -106,4 +109,7 @@ body{
 .passenger5{
     display: none;
 
+}
+.cont{
+    margin-left: 8vw;
 }
