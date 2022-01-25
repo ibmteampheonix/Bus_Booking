@@ -42,3 +42,15 @@ function printsb(){
         return '';
     }
 }
+function myfunc(){
+    document.getElementById("logout").style.display="none";
+    alert("Logged out successfully")
+}
+function displayfunc(){
+    document.getElementById("logout").style.display="block";
+    alert("Logged in successfully");
+}
+function hideabout(){
+    document.getElementById("contact").style.display = "block";
+    document.getElementsByClassName("container1").style.display = "none";
+}

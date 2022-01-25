@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
-
+declare const myfunc:any;
+declare const hideabout:any;
 @Component({
   selector: 'app-homepage',
   templateUrl: './homepage.component.html',
@@ -10,6 +11,10 @@ export class HomepageComponent implements OnInit {
   constructor() { }
 
   ngOnInit(): void {
+  }
+  onClick(){
+    myfunc();
+    hideabout();
   }
 
 }

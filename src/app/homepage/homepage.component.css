@@ -55,3 +55,14 @@ img{
     width: 120px;
     border-radius: 20px;
 }
+#logout{
+    display:none;
+}
+#contact{
+    display: none;
+    background-color: #fff;
+    width: 35vw;
+    position: relative;
+    top: -220px;
+    
+}

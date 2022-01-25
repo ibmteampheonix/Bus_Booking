@@ -37,9 +37,12 @@
               <a href="#" class="nav-link px-2 text-secondary">Home</a>
             </li>
             <li>
-              <a href="#" class="nav-link px-2 text-white">About</a>
+            <li>
+              <a  class="nav-link px-2 text-white" [routerLink]='["/about"]' routerLinkActive="active" onclick="document.getElementById('container1').style.visibility='hidden' " >About</a>
             </li>
-            <li><a href="#" class="nav-link px-2 text-white">Contact Us</a></li>
+            
+            <li><a  class="nav-link px-2 text-white" [routerLink]='["/contact"]' routerLinkActive="active" onclick="document.getElementById('container1').style.visibility='hidden' " >Contact Us</a></li>
+            <li><a href="#" onclick ="myfunc()" class="nav-link px-2 text-white" id ="logout">Log Out</a></li>
           </ul>
           <h2 class="welcome"> Phoenix Bus</h2><br>
           <h6 class="small">Make Bookings Easy</h6>
@@ -90,6 +93,7 @@
     <!-- <app-show-buses></app-show-buses> -->
     
     <router-outlet></router-outlet>
+    <div id="contact">Email :teampheonix.ibm@gmail.com <br>Phone : 9876543210</div>
   </body>
   
   

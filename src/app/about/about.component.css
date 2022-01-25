@@ -1,0 +1,22 @@
+body{
+    background:none;
+}
+.about{
+    height:50vh;
+    width:40vw;
+    background-color: rgb(194, 173, 133);
+    position:relative;
+    margin:auto;
+    top:-130px;
+    padding:15px;
+    border-radius:30px;
+    animation:fadeOut 4s ;
+    box-shadow:10px 5px 5px rgba(192, 17, 17, 0.459);
+    font-family:cursive;
+    font-weight:400;
+}
+@keyframes fadeOut {
+    0% {opacity: 0;}
+   
+    100% {opacity: 1;} 
+ } 

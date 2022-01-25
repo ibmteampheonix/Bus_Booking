@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-
+declare const displayfunc:any;
 @Component({
   selector: 'app-login',
   templateUrl: './login.component.html',
@@ -11,5 +11,7 @@ export class LoginComponent implements OnInit {
 
   ngOnInit(): void {
   }
-
+  onClick(){
+    displayfunc();
+  }
 }

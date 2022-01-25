@@ -12,6 +12,8 @@ import { PassengerdetailsComponent } from './User/passengerdetails/passengerdeta
 import { PaymentComponent } from './User/payment/payment.component';
 import { SeatesComponent } from './Bus/seates/seates.component';
 import { HttpClientModule } from '@angular/common/http';
+import { AboutComponent } from './about/about.component';
+import { ContactComponent } from './contact/contact.component';
 
 @NgModule({
   declarations: [
@@ -22,7 +24,9 @@ import { HttpClientModule } from '@angular/common/http';
     HomepageComponent,
     PassengerdetailsComponent,
     PaymentComponent,
-    SeatesComponent
+    SeatesComponent,
+    AboutComponent,
+    ContactComponent
   ],
   imports: [
     BrowserModule,
